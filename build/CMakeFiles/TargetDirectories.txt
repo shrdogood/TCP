@@ -1,0 +1,4 @@
+H:/myRepo/2026/TCP/build/CMakeFiles/server.dir
+H:/myRepo/2026/TCP/build/CMakeFiles/client.dir
+H:/myRepo/2026/TCP/build/CMakeFiles/edit_cache.dir
+H:/myRepo/2026/TCP/build/CMakeFiles/rebuild_cache.dir
