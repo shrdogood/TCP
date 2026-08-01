@@ -93,7 +93,7 @@ int main()
     std::cout << "开始监听..." << std::endl;
     if(listen(serversoc, 1) != 0)
     {
-        printf("监听失败!\n");
+        std::cout << "监听失败!" << std::endl;
         closesocket(serversoc); // 监听失败释放
         WSACleanup();
         return -1;
@@ -141,7 +141,6 @@ int main()
     //发送数据
     std::cout << "输入发送给客户端的信息：" << std::endl;
     std::cin >> buf ;
-    // 去掉 +1，不需要发送\0
     if(send(clientsoc, buf, strlen(buf), 0) <= 0)
     {
         std::cout << "发送失败" << std::endl;
