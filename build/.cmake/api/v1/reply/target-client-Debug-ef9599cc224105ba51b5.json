@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "server.exe"
+			"path" : "client.exe"
 		},
 		{
-			"path" : "server.pdb"
+			"path" : "client.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 5,
+				"line" : 13,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 7,
+				"line" : 15,
 				"parent" : 0
 			}
 		]
@@ -50,17 +50,25 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -std=gnu++11"
 				}
 			],
 			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
 			"sourceIndexes" : 
 			[
 				0
 			]
 		}
 	],
-	"id" : "server::@6890427a1f51a3e7e1df",
+	"id" : "client::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -88,8 +96,8 @@
 			"fragment" : "ws2_32"
 		}
 	],
-	"name" : "server",
-	"nameOnDisk" : "server.exe",
+	"name" : "client",
+	"nameOnDisk" : "client.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -114,7 +122,7 @@
 				1
 			],
 			"compileGroupIndex" : 0,
-			"path" : "server.cpp",
+			"path" : "client.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -57,19 +57,19 @@
 				{
 					"includeDirectories" : 
 					[
-						"D:/mingw64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
-						"D:/mingw64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32",
-						"D:/mingw64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward",
-						"D:/mingw64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
-						"D:/mingw64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
-						"D:/mingw64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include"
+						"D:/mingw64/x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/c++",
+						"D:/mingw64/x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/c++/x86_64-w64-mingw32",
+						"D:/mingw64/x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/c++/backward",
+						"D:/mingw64/x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include",
+						"D:/mingw64/x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed",
+						"D:/mingw64/x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1/mingw64/x86_64-w64-mingw32/include"
 					],
 					"linkDirectories" : 
 					[
-						"D:/mingw64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0",
-						"D:/mingw64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib/gcc",
-						"D:/mingw64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib",
-						"D:/mingw64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/lib"
+						"D:/mingw64/x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1/mingw64/lib/gcc/x86_64-w64-mingw32/16.1.0",
+						"D:/mingw64/x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1/mingw64/lib/gcc",
+						"D:/mingw64/x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1/mingw64/x86_64-w64-mingw32/lib",
+						"D:/mingw64/x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1/mingw64/lib"
 					],
 					"linkFrameworkDirectories" : [],
 					"linkLibraries" : 
@@ -78,8 +78,8 @@
 						"mingw32",
 						"gcc_s",
 						"gcc",
-						"moldname",
 						"mingwex",
+						"kernel32",
 						"advapi32",
 						"shell32",
 						"user32",
@@ -88,12 +88,12 @@
 						"mingw32",
 						"gcc_s",
 						"gcc",
-						"moldname",
-						"mingwex"
+						"mingwex",
+						"kernel32"
 					]
 				},
-				"path" : "D:/mingw64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/g++.exe",
-				"version" : "8.1.0"
+				"path" : "D:/mingw64/x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1/mingw64/bin/g++.exe",
+				"version" : "16.1.0"
 			},
 			"language" : "CXX",
 			"sourceFileExtensions" : 

@@ -155,11 +155,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Full path to the compiler used for language <LANG>. Set by CMake during compiler detection on the first configure; users may override on the command line to select a specific toolchain."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "D:/mingw64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/g++.exe"
+			"type" : "STRING",
+			"value" : "D:/mingw64/x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1/mingw64/bin/g++.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -175,7 +175,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/mingw64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/gcc-ar.exe"
+			"value" : "D:/mingw64/x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1/mingw64/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -191,7 +191,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/mingw64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/gcc-ranlib.exe"
+			"value" : "D:/mingw64/x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1/mingw64/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -299,10 +299,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Full path to the compiler used for language <LANG>. Set by CMake during compiler detection on the first configure; users may override on the command line to select a specific toolchain."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "D:/mingw64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/gcc.exe"
 		},
 		{

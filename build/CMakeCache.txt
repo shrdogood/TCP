@@ -28,18 +28,16 @@ CMAKE_BUILD_TYPE:STRING=Debug
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//Full path to the compiler used for language <LANG>. Set by CMake
-// during compiler detection on the first configure; users may
-// override on the command line to select a specific toolchain.
-CMAKE_CXX_COMPILER:FILEPATH=D:/mingw64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/g++.exe
+//CXX compiler
+CMAKE_CXX_COMPILER:STRING=D:/mingw64/x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1/mingw64/bin/g++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_AR:FILEPATH=D:/mingw64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/gcc-ar.exe
+CMAKE_CXX_COMPILER_AR:FILEPATH=D:/mingw64/x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1/mingw64/bin/gcc-ar.exe
 
 //A wrapper around 'ranlib' adding the appropriate '--plugin' option
 // for the GCC compiler
-CMAKE_CXX_COMPILER_RANLIB:FILEPATH=D:/mingw64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/gcc-ranlib.exe
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=D:/mingw64/x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1/mingw64/bin/gcc-ranlib.exe
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -59,10 +57,8 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 //Libraries linked by default with all C++ applications.
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
 
-//Full path to the compiler used for language <LANG>. Set by CMake
-// during compiler detection on the first configure; users may
-// override on the command line to select a specific toolchain.
-CMAKE_C_COMPILER:FILEPATH=D:/mingw64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/gcc.exe
+//C compiler
+CMAKE_C_COMPILER:STRING=D:/mingw64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/gcc.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
