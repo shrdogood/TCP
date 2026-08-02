@@ -34,35 +34,34 @@ int main()
     }
     std::cout << "连接服务端成功！" << std::endl;
 
-    // 输入消息发送给服务端
-    std::cout << "请输入发送给服务器的字符：" << std::endl;
-    std::cin >> buf;
-    int sendLen = strlen(buf);
-    if (send(clientsocket, buf, sendLen, 0) <= 0)
+    while(true)
     {
-        std::cout << "发送错误！" << std::endl;
-        closesocket(clientsocket);
-        WSACleanup();
-        return -1;
-    }
-    std::cout << "消息发送完成！" << std::endl;
+        // 输入消息发送给服务端
+        std::cout << "请输入发送给服务器的字符（输入 quit 退出）：" << std::endl;
+        std::cin >> buf;
 
-    // 阻塞接收服务器回复
-    int recvRet;
-    while (1)
-    {
-        recvRet = recv(clientsocket, buf, 1024, 0);
-        if (recvRet <= 0)
+        // 检查是否要主动断开
+        if (strcmp(buf, "quit") == 0) 
         {
-            std::cout << "接收错误或服务端断开连接！" << std::endl;
-            closesocket(clientsocket);
-            WSACleanup();
-            return -1;
+            std::cout << "主动断开连接" << std::endl;
+            break;  // 退出循环，随后关闭套接字
         }
-        std::cout << "接收来自服务器的信息：" << buf << std::endl;
-        break;
-    }
 
+        // 发送消息
+        if (send(clientsocket, buf, strlen(buf), 0) <= 0) {
+            std::cout << "发送失败！" << std::endl;
+            break;
+        }
+
+        // 接收服务器回复（阻塞）
+        int recvRet = recv(clientsocket, buf, sizeof(buf) - 1, 0);
+        if (recvRet <= 0) {
+            std::cout << "接收失败或服务器断开连接！" << std::endl;
+            break;
+        }
+        std::cout << "服务器回复：" << buf << std::endl;
+    }
+    
     // 程序正常退出，释放资源
     closesocket(clientsocket);
     WSACleanup();

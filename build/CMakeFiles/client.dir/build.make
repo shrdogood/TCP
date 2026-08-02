@@ -75,15 +75,15 @@ CMakeFiles/client.dir/client.cpp.obj: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/client.cpp.obj: H:/myRepo/2026/TCP/client.cpp
 CMakeFiles/client.dir/client.cpp.obj: CMakeFiles/client.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\myRepo\2026\TCP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/client.dir/client.cpp.obj"
-	D:\mingw64\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/client.dir/client.cpp.obj -MF CMakeFiles\client.dir\client.cpp.obj.d -o CMakeFiles\client.dir\client.cpp.obj -c H:\myRepo\2026\TCP\client.cpp
+	D:\mingw64\x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/client.dir/client.cpp.obj -MF CMakeFiles\client.dir\client.cpp.obj.d -o CMakeFiles\client.dir\client.cpp.obj -c H:\myRepo\2026\TCP\client.cpp
 
 CMakeFiles/client.dir/client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/client.dir/client.cpp.i"
-	D:\mingw64\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\myRepo\2026\TCP\client.cpp > CMakeFiles\client.dir\client.cpp.i
+	D:\mingw64\x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\myRepo\2026\TCP\client.cpp > CMakeFiles\client.dir\client.cpp.i
 
 CMakeFiles/client.dir/client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/client.dir/client.cpp.s"
-	D:\mingw64\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\myRepo\2026\TCP\client.cpp -o CMakeFiles\client.dir\client.cpp.s
+	D:\mingw64\x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\myRepo\2026\TCP\client.cpp -o CMakeFiles\client.dir\client.cpp.s
 
 # Object files for target client
 client_OBJECTS = \

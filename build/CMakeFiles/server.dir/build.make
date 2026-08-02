@@ -75,15 +75,15 @@ CMakeFiles/server.dir/server.cpp.obj: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/server.cpp.obj: H:/myRepo/2026/TCP/server.cpp
 CMakeFiles/server.dir/server.cpp.obj: CMakeFiles/server.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\myRepo\2026\TCP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/server.dir/server.cpp.obj"
-	D:\mingw64\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/server.cpp.obj -MF CMakeFiles\server.dir\server.cpp.obj.d -o CMakeFiles\server.dir\server.cpp.obj -c H:\myRepo\2026\TCP\server.cpp
+	D:\mingw64\x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/server.cpp.obj -MF CMakeFiles\server.dir\server.cpp.obj.d -o CMakeFiles\server.dir\server.cpp.obj -c H:\myRepo\2026\TCP\server.cpp
 
 CMakeFiles/server.dir/server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/server.cpp.i"
-	D:\mingw64\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\myRepo\2026\TCP\server.cpp > CMakeFiles\server.dir\server.cpp.i
+	D:\mingw64\x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\myRepo\2026\TCP\server.cpp > CMakeFiles\server.dir\server.cpp.i
 
 CMakeFiles/server.dir/server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/server.cpp.s"
-	D:\mingw64\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\myRepo\2026\TCP\server.cpp -o CMakeFiles\server.dir\server.cpp.s
+	D:\mingw64\x86_64-16.1.0-release-win32-seh-ucrt-rt_v14-rev1\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\myRepo\2026\TCP\server.cpp -o CMakeFiles\server.dir\server.cpp.s
 
 # Object files for target server
 server_OBJECTS = \
